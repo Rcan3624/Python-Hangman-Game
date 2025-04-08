@@ -5,11 +5,6 @@
 from tkinter import *
 from tkinter import messagebox
 
-# Todo
-# Create list for hangman words
-# Create code for displaying house pieces for when the user enters a wrong letter
-# Still need to code out house
-
 def checkGuess(correctAnswers,guess):
 
     if guess == correctAnswers:
